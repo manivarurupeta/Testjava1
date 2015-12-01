@@ -7,7 +7,7 @@
 <mkdir dir="staging"/>
 </target>
 <target name="run" depends="compile">
-<java classname="demopack1.Democlass" >
+<java classname="pack.Exe" >
 <classpath path="staging"/>
 </java>
 </target>
